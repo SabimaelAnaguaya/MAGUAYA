@@ -36,11 +36,17 @@ a{
 my-logo{
     --primary: var(--black);
 }
-
 .introduction{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.intro-container{
     width: 100%;
     height: 100vh;
     position: relative;
+    display: flex;
+    justify-content: center;
     overflow: hidden;
 }
 
@@ -64,6 +70,41 @@ bg-anim{
     animation: showByLeft2 2s forwards;
 }
 
+.info-introduction{
+    width: 100%;
+    height: 100%;
+    
+    position: absolute;
+    z-index: 900;
+    display: grid;
+
+    justify-items: center;
+    place-items: center;
+    animation: showByRight 3s forwards;
+
+}
+
+bg-banner{
+    /* --btn-color: gray;
+    --border-color: black;
+    --font-color: white; */
+
+    --btn-color: var(--secondary);    
+    --border-color: var(--primary);
+    --font-color: (var(--primary))
+}
+
+/* ANIMATIONS */
+@keyframes showByRight {
+    from{
+        opacity: 0;
+        transform: translateX(-200px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
 @keyframes showByLeft {
     from{
         opacity: 0;
@@ -71,7 +112,7 @@ bg-anim{
     }
     to{
         opacity: 0.6;
-        transform: translate(300px , 200px) rotate(-10deg);
+        transform: translate(300px , 100px) rotate(-10deg);
     }
 }
 
@@ -82,28 +123,6 @@ bg-anim{
     }
     to{
         opacity: 0.6;
-        transform: translate(250px , 100px) rotate(0deg);
+        transform: translate(250px , 300px) rotate(0deg);
     }
-}
-
-.info-introduction{
-    width: 100%;
-    height: 100vh;
-    padding: 0 20px;
-    position: fixed;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.img-intro{
-    height: 90%;
-    position: relative;
-    z-index: 90;
-}
-
-.text-intro{
-    height: 70%;
-    position: absolute;
-    z-index: 91;
 }

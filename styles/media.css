@@ -1,6 +1,64 @@
+/* TO PHONES EXTRA SMALL */
+
+@media screen and (max-width: 375px) {
+    .info-introduction{
+        width: 75%;
+    }
+}
+
+/* TO TABLETS */
+
 @media screen and (min-width: 768px) {
     .info-introduction{
-        padding: 0 100px;
+        
     }
 
+    @keyframes showByLeft {
+        from{
+            opacity: 0;
+            transform: translate(100% , 200px) rotate(-10deg);
+        }
+        to{
+            opacity: 0.6;
+            transform: translate(300px , 100px) rotate(-10deg);
+        }
+    }
+    
+    @keyframes showByLeft2 {
+        from{
+            opacity: 0;
+            transform: translate(100% , 200px) rotate(0deg);
+        }
+        to{
+            opacity: 0.6;
+            transform: translate(450px , 300px) rotate(10deg);
+        }
+    }
+}
+
+/* TO LAPTOPS */
+@media screen and (min-width: 968px) {
+    
+
+    @keyframes showByLeft {
+        from{
+            opacity: 0;
+            transform: translate(100% , 200px) rotate(-10deg);
+        }
+        to{
+            opacity: 0.6;
+            transform: translate(400px , 100px) rotate(-10deg);
+        }
+    }
+    
+    @keyframes showByLeft2 {
+        from{
+            opacity: 0;
+            transform: translate(100% , 200px) rotate(0deg);
+        }
+        to{
+            opacity: 0.6;
+            transform: translate(350px , 300px) rotate(10deg);
+        }
+    }
 }
