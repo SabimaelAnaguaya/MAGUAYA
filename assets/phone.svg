@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="iphone5_vertical" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 1000 1800" style="enable-background:new 0 0 1000 1800;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill-rule:evenodd;clip-rule:evenodd;fill:#757575;}
+	.st1{fill-rule:evenodd;clip-rule:evenodd;fill:#1D1D1B;stroke:#757575;stroke-width:5;stroke-linejoin:round;}
+	.st2{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+</style>
+<g id="side_buttons">
+	<path class="st0" d="M39.9,346.6h-5.5c-3,0-5.5-2.1-5.5-4.8v-65.4c0-2.7,2.5-4.8,5.5-4.8h5.5L39.9,346.6L39.9,346.6z"/>
+	<path id="Shape_10_copy_3" class="st0" d="M666.5,35.3v-4.9c-0.1-2.6,2.3-4.8,5.3-4.9H808c3,0.1,5.4,2.2,5.3,4.9v4.9H666.5z"/>
+	<path id="Shape_10_copy" class="st0" d="M39.9,494h-5.5c-3,0-5.5-2.1-5.5-4.8c0,0,0,0,0,0v-50.1c0-2.7,2.5-4.8,5.5-4.8c0,0,0,0,0,0
+		h5.5L39.9,494L39.9,494z"/>
+	<path id="Shape_10_copy_2" class="st0" d="M39.9,640.4h-5.5c-3,0-5.5-2.1-5.5-4.8c0,0,0,0,0,0v-50.1c0-2.7,2.5-4.8,5.5-4.8
+		c0,0,0,0,0,0h5.5L39.9,640.4L39.9,640.4z"/>
+</g>
+<g id="panel">
+	<path id="frame" class="st1" d="M174.5,34.2h662.1c74.3,0,134.6,52.9,134.6,118.2v1492.2c0,65.3-60.3,118.3-134.6,118.2H174.5
+		c-74.3,0-134.6-52.9-134.6-118.2l0,0V152.5C39.9,87.1,100.2,34.2,174.5,34.2L174.5,34.2z"/>
+</g>
+<g id="panel_1_">
+	<path id="frame_1_" class="st2" d="M194.8,68.2h610.4c68.5,0,124,50.9,124.1,113.8v1436c0,62.9-55.6,113.8-124.1,113.8H194.8
+		c-68.5,0-124-50.9-124.1-113.8l0,0V182C70.7,119.1,126.3,68.2,194.8,68.2L194.8,68.2z"/>
+</g>
+</svg>

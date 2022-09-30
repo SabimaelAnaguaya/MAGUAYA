@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/navlist.css">
+    <link rel="stylesheet" href="./styles/media.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+              
+            <my-logo></my-logo>
+            
+            <div class="lines">
+                <div class="line line_1"></div>
+                <div class="line line_2"></div>
+                <div class="line line_3"></div>
+            </div>
+
+            <ul class="navlist">
+                <div class="bg-navlist bg-top"></div>
+                <div class="bg-navlist bg-middle"></div>
+                <div class="bg-navlist bg-bottom"></div>
+                <li>
+                    <a href="">INICIO</a>
+                </li>
+                <li>
+                    <a href="">SERVICIO</a>
+                </li>
+                <li>
+                    <a href="">CONTACTAME</a>
+                </li>
+            </ul>
+        </nav>
+
+    </header>
+    
+    <main>
+        <div class="introduction">
+            <bg-anim></bg-anim>
+            <img class="intro-img_1" src="./assets/landing.png" alt="">
+            <img class="intro-img_2" src="./assets/petshop.png" alt="">
+            <section class="info-introduction">
+                <picture class="img-intro-container">
+                    <source srcset="./assets/mackbook-air.sv" media="(min-width:768px)">
+                    <source srcset="./assets/mackbook-air.svg" media="(min-width:940px)">
+                    <img class="img-intro" src="./assets/phone.svg">
+
+                    <h1>web design</h1>
+                </picture>
+                
+            </section>
+           
+        </div>
+    </main>
+    
+    <h2>hola</h2>
+    
+
+    <script type="module" src="./components/myLogo.js"></script>
+    <script type="module" src="./components/background.js"></script>
+    <script src="./components/main.js"></script>
+</body>
+</html>

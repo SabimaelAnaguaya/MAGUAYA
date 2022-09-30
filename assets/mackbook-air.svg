@@ -1,0 +1,40 @@
+<svg id="monitor" xmlns="http://www.w3.org/2000/svg" width="2500" height="1500" viewBox="0 0 2500 1500">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        stroke: #757575;
+        stroke-width: 6px;
+      }
+
+      .cls-1, .cls-5 {
+        stroke-linejoin: round;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2, .cls-4, .cls-5 {
+        fill: #757575;
+      }
+
+      .cls-3 {
+        fill: #c8c8c8;
+      }
+
+      .cls-5 {
+        stroke: #fff;
+        stroke-opacity: 0.85;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="M540.787,199H1974.21A61.8,61.8,0,0,1,2036,260.816V1195.17a61.8,61.8,0,0,1-61.79,61.82H540.787A61.8,61.8,0,0,1,479,1195.17V260.816A61.8,61.8,0,0,1,540.787,199Z"/>
+  <path class="cls-2" d="M223.8,1260.01H2291.2c15.58,0-8.12,8.26-49.65,17.71-38.29,8.71-148.1,15.28-161.54,15.28H434.993c-13.446,0-123.258-6.57-161.544-15.28C231.924,1268.27,208.22,1260.01,223.8,1260.01Z"/>
+  <path class="cls-1" d="M223.174,1230.01H2292.83c3.41,0,6.17,3.14,6.17,7v19c0,3.87-2.76,7-6.17,7H223.174c-3.412,0-6.178-3.13-6.178-7v-19C217,1233.15,219.762,1230.01,223.174,1230.01Z"/>
+  <path class="cls-1" d="M1430.06,1231a20.252,20.252,0,0,1,1.94,8.61c0,12.37-11.27,22.4-25.17,22.4H1093.17c-13.9,0-25.17-10.03-25.17-22.4a20.252,20.252,0,0,1,1.94-8.61h360.12Z"/>
+  <path id="DISPLAY_SCREEN" data-name="DISPLAY SCREEN" class="cls-3" d="M538.006,268h1440v899h-1440V268Z"/>
+  <circle class="cls-4" cx="1250" cy="235" r="11"/>
+  <circle id="Ellipse_1_copy" data-name="Ellipse 1 copy" class="cls-5" cx="1250" cy="235" r="3.97"/>
+</svg>

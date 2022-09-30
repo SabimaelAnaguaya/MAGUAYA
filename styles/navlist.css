@@ -1,0 +1,145 @@
+/* ESTILOS BOTON TO SHOW NAV LIST */
+
+.lines{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    z-index: 1001;
+}
+
+.line{
+    width: 100%;
+    height: 8px;
+    border-radius: 7px;
+}
+
+.line_1{
+    background-color: #247291;
+}
+
+.line_2{
+    background-color: #c4c46a;
+}
+
+.line_3{
+    background-color: #f8c346;
+}
+
+
+.e-line_1{
+    position: absolute;
+    top: 10px;
+    transform: rotate(45deg);
+    transition: 1s all ease-in-out;
+}
+.e-line_2{
+    position: absolute;
+    top: 10px;
+    transform: rotate(-225deg);
+    transition: 1s all ease-in-out;
+}
+.e-line_3{
+    top: 10px;
+    position: absolute;
+    transform: rotate(-45deg);
+    transition: 1s all ease-in-out;
+}
+
+/* ESTILOS NAVLIST */
+
+.navlist{
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transform: translate(100%, -100%);
+    transition: 1s all ease-in-out;
+    z-index: 1000;
+
+}
+
+.bg-navlist{
+    width: 200%;
+    height: 350px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    position: absolute;
+
+}
+.bg-top{
+    opacity: 0;
+    background-color: rgba(36, 114, 145, 0.5);
+    transform: translate(-1000px, 1000px) rotate(-45deg);
+    transition: 1s all ease-in-out;
+}
+.bg-middle{
+    opacity: 0;
+    height: 250px;
+    top: -190px;
+    background-color: rgba(248, 219, 91, 0.5);
+    transform: translate(1000px, -1000px) rotate(-45deg);
+    transition: 1s all ease-in-out
+}
+
+.bg-bottom{
+    opacity: 0;
+    height: 250px;
+    bottom: -180px;
+    background-color:rgba(238, 242, 226, 0.5);
+    transform: translate(1000px, -1000px) rotate(-45deg);
+    transition: 1s all ease-in-out
+}
+
+.show-navlist{
+    opacity: 1;
+    transform: translate(0, 0);
+    transition: 1s all ease-in-out
+}
+
+.show-t{
+    opacity: 1;
+    transform: translate(0px, 0px) rotate(-45deg);
+    transition: 1s all ease-in-out
+}
+
+.show-b{
+    opacity: 1;
+    transform: translate(0px, 0px) rotate(-45deg);
+    transition: 1s all ease-in-out
+}
+
+
+ul li{
+
+    width: 200px;
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 8px 15px;
+    border-radius: 10px;
+    z-index: 900;
+}
+
+ul li a{
+    color: azure;
+}
+
+ul li:hover{
+    background: #0d445a;
+}
+ul li:hover a{
+    color: var(--white);
+}

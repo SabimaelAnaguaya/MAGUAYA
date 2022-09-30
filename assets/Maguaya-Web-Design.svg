@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 30 30"><defs><style>.cls-1{fill:url(#Degradado_sin_nombre_6);}.cls-2{fill:url(#Degradado_sin_nombre_8);}.cls-3{fill:url(#Degradado_sin_nombre_11);}.cls-4{fill:url(#Degradado_sin_nombre_24);}.cls-5{fill:url(#Degradado_sin_nombre_14);}.cls-6{fill:url(#Degradado_sin_nombre_16);}.cls-7{fill:url(#Degradado_sin_nombre_28);}.cls-8{fill:url(#Degradado_sin_nombre_31);}</style><linearGradient id="Degradado_sin_nombre_6" x1="27.67" y1="29.84" x2="27.67" y2="1.23" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#0092af"/><stop offset="1" stop-color="#0092af"/></linearGradient><linearGradient id="Degradado_sin_nombre_8" x1="21.31" y1="29.84" x2="21.31" y2="8.27" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#34a8bf"/><stop offset="1" stop-color="#34a8bf"/></linearGradient><linearGradient id="Degradado_sin_nombre_11" x1="14.97" y1="29.84" x2="14.97" y2="15.5" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#67becf"/><stop offset="1" stop-color="#67becf"/></linearGradient><linearGradient id="Degradado_sin_nombre_24" x1="7.74" y1="29.84" x2="7.74" y2="22.61" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#dcc958"/><stop offset="0.97" stop-color="#dcc958"/></linearGradient><linearGradient id="Degradado_sin_nombre_14" x1="2.33" y1="30" x2="2.33" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ffc200"/><stop offset="1" stop-color="#ffc200"/></linearGradient><linearGradient id="Degradado_sin_nombre_16" x1="8.65" y1="24.71" x2="8.65" y2="7.16" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ffce34"/><stop offset="1" stop-color="#ffce34"/></linearGradient><linearGradient id="Degradado_sin_nombre_28" x1="13.37" y1="17.61" x2="13.37" y2="14.27" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ffda65"/><stop offset="0.97" stop-color="#ffda65"/></linearGradient><linearGradient id="Degradado_sin_nombre_31" x1="8.66" y1="3.58" x2="21.34" y2="3.58" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#c3c46a"/><stop offset="0.97" stop-color="#c3c46a"/></linearGradient></defs><title>Maguaya-Web-Design</title>
+
+
+<g id="shape1">
+    <polygon class="cls-1" points="25.34 6.49 30 1.23 30 29.84 25.34 29.84 25.34 6.49">
+        <animateTransform 
+            attributeName="transform"
+			type="translate"
+            values="-23,27.5; 0,0"
+            dur="2s"
+            repeatCount="2"
+		/>
+    	
+    </polygon>
+</g>
+
+<g id="shape2">
+    <polygon class="cls-2" points="18.92 13.67 23.7 8.27 23.7 29.84 19.04 29.84 18.92 13.67">
+        <animateTransform 
+            attributeName="transform"
+			type="translate"
+            values="-16,20; 0,0"
+            dur="2s"
+            repeatCount="2"
+		/>
+    	
+    </polygon>
+</g>
+
+<g id="shape3">
+    <polygon class="cls-3" points="12.64 20.61 17.3 15.5 17.3 29.84 12.64 29.84 12.64 20.61">
+        <animateTransform 
+            attributeName="transform"
+			type="translate"
+            values="-11,14; 0,0"
+            dur="2s"
+            repeatCount="2"
+		/>
+    </polygon>
+</g>
+
+<g id="shape4">
+    <polygon class="cls-4" points="10.95 22.61 10.95 29.84 4.52 29.84 10.95 22.61">
+        <animateTransform 
+            attributeName="transform"
+			type="translate"
+            values="-5,7; 0,0"
+            dur="2s"
+            repeatCount="2"
+		/>
+    </polygon>
+</g>
+
+
+
+
+<g id="shape5">
+    <polygon class="cls-5" points="0 30 1.77 30 4.65 26.61 4.64 5.24 0 0 0 30">
+        <animateTransform 
+            attributeName="transform"
+			type="translate"
+            values="-4.5,0; 0,0"
+            dur="2s"
+            repeatCount="1"
+		/>
+    </polygon>
+</g>
+
+<g id="shape6">
+    <polygon class="cls-6" points="6.34 24.7 10.95 19.41 10.95 12.36 6.34 7.16 6.34 24.7">
+        <animateTransform 
+            attributeName="transform"
+			type="translate"
+            values="-10.9,0; 0,0"
+            dur="2s"
+            repeatCount="1"
+		/>
+    </polygon>
+</g>
+
+<g id="shape7">
+    <polygon class="cls-7" points="12.65 14.27 12.65 17.61 14.08 15.94 12.65 14.27">
+        <animateTransform 
+            attributeName="transform"
+			type="translate"
+            values="-13,0; 0,0"
+            dur="2s"
+            repeatCount="1"
+		/>
+    </polygon>
+</g>
+
+
+<g id="Capa_9" data-name="Capa 9">
+    <polygon class="cls-8" points="8.66 0 21.34 0 15 7.16 8.66 0">
+        <animateTransform 
+            attributeName="transform"
+			type="translate"
+            values="0,-7; 0,0"
+            dur="2s"
+            repeatCount="1"
+		/>
+    </polygon>
+</g></svg>
