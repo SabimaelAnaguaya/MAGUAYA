@@ -1,41 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 24.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 1500 1250" style="enable-background:new 0 0 1500 1250;" xml:space="preserve">
 <style type="text/css">
-	.st0{enable-background:new    ;}
-	.st1{fill:#606060;}
-	.st2{fill-rule:evenodd;clip-rule:evenodd;fill:#757575;}
+	.st0{fill:#FFFFFF;stroke:#1C1C1C;stroke-width:3;stroke-miterlimit:10;}
+	.st1{fill-rule:evenodd;clip-rule:evenodd;fill:#757575;}
+	.st2{fill:#3F3F3F;}
 </style>
 <g id="body_1_">
 	<g id="Shape_xA0_Imagen_1_">
-		<path d="M1404.99,1164.13H95.01c-29.32,0-53.09-23.77-53.09-53.09V133.82c0-29.32,23.77-53.09,53.09-53.09h1309.99
-			c29.32,0,53.09,23.77,53.09,53.09v977.21C1458.09,1140.36,1434.32,1164.13,1404.99,1164.13z"/>
+		<path class="st0" d="M1405,1164.1H95c-29.3,0-53.1-23.8-53.1-53.1V133.8c0-29.3,23.8-53.1,53.1-53.1h1310
+			c29.3,0,53.1,23.8,53.1,53.1V1111C1458.1,1140.4,1434.3,1164.1,1405,1164.1z"/>
 	</g>
 </g>
-<g id="DISPLAY_SCREEN_1_" class="st0">
-	<path class="st1" d="M1369.55,1127.39H142.94c-26.18,0-47.41-21.23-47.41-47.41V164.87c0-26.18,21.23-47.41,47.41-47.41h1226.6
-		c26.18,0,47.41,21.23,47.41,47.41v915.11C1416.95,1106.17,1395.73,1127.39,1369.55,1127.39z"/>
+<g id="Capa_2_1_">
 </g>
 <g id="front_camera_1_">
 	<g id="Shape_5">
 		<g>
-			<ellipse class="st2" cx="75.68" cy="624.12" rx="11.25" ry="12.58"/>
+			<ellipse class="st1" cx="76.9" cy="626.5" rx="11.2" ry="12.6"/>
 		</g>
 	</g>
 	<g id="Shape_5_copy_xA0_Imagen_1_">
 		
-			<image style="overflow:visible;" width="16" height="16" id="Shape_5_copy_xA0_Imagen" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAATCAYAAAB2pebxAAAACXBIWXMAAAnXAAAJ1wGxbhe3AAAA
-GXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAahJREFUeNrUk89LAkEUx9/qrqy2
-LJXk4qJGeQhXEFlC6tSpbl2CrnXpH+g/6uipgu4RgYcuKv04FIqFh9j1opbgrql9Z1HZdOkQBPXg
-w8DOm8/OzHtD9FeC8/o4HA6XMOwCHayCDrgFBY7jLr81YrEAdHACnkELfIAuMMANOAbz7nX8lCcC
-9vv9/k6z2YzWajVqt9skCII/gkgkEnIwGLSR8wJOZySwyxi2ITgwDCNaKBSoUqmMJaQoCmWzWVHX
-9XWIjpD/iKM9TO9kEWzZtq1Wq1Uql8vU6/WcCYipXq+zH1E8HhexIw2fN4Aj8bkk7Jw6jkGlUmki
-GMdgMCDTNB05YmF06TQtkVglLMuiRqPhefHY5XhuDqx4SX4cbkmL9QIujWKxmGeya47l3nlJ3sCT
-LMukaZpTkS9/8/koHA5TKpWa5Hr1ySvIi6K4mclk1lglisWicweBQICSySTlcjlSVfUdedfgYkaC
-mltYeI/xTJKkw3Q6HQ2FQpM+Qa+x8nZ5nmflOUee6fl2IPFjWAZ7o7fDKqAAa9SlTJAHV5B0fu8B
-/v/4FGAAtGC+c/ooRUcAAAAASUVORK5CYII=" transform="matrix(1.1257 0 0 1.2577 66.6739 614.0595)">
+			<image style="overflow:visible;enable-background:new    ;" width="18" height="22" id="Shape_5_copy_xA0_Imagen" xlink:href="2C1A04CCE40327FC.png"  transform="matrix(0.8187 0 0 0.9147 69.5126 616.4028)">
 		</image>
 	</g>
 </g>
+<path class="st2" d="M1367.5,1120.4H145.9c-22.3,0-40.4-18.1-40.4-40.4V172c0-22.3,18.1-40.4,40.4-40.4h1221.6
+	c22.3,0,40.4,18.1,40.4,40.4v908C1407.9,1102.3,1389.8,1120.4,1367.5,1120.4z"/>
 </svg>

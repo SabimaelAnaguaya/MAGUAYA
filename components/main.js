@@ -24,3 +24,18 @@ function showNavlist(){
 }
 
 btnLines.addEventListener('click', showNavlist);
+
+/* HIDE AND SHOW MENUBAR */
+
+let mainUbication = window.pageXOffset;
+let navbar = document.querySelector('.navbar');
+window.onscroll = function(){
+    let actualScroll = window.pageYOffset;
+    if(mainUbication >= actualScroll){
+        navbar.classList.remove('hide-navbar')
+    }else{
+        navbar.classList.add('hide-navbar');
+    }
+
+    mainUbication = actualScroll;
+}

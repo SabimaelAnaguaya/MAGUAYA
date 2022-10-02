@@ -29,7 +29,8 @@ a{
     align-items: center;
     justify-content: space-between;
     position: fixed;
-    background-color: rgba(251, 251, 251, 0.9);
+    background-color: rgba(251, 251, 251, 0.8);
+    transition: .5s all ease-in;
     z-index: 999;
 }
 
@@ -56,19 +57,28 @@ bg-anim{
     position: absolute;
 }
 
-.intro-img_1{
+.intro-img{
     height: 250px;
     border-radius: 10px;
     position:absolute;
+}
+
+.bg-img1{
+    
     animation: showByLeft 2s forwards;
 }
 
-.intro-img_2{
-    height: 250px;
-    border-radius: 10px;
-    position:absolute;
+.bg-img2{
     animation: showByLeft2 2s forwards;
 }
+
+.bg-img3{
+    animation: showByRight 2s forwards;
+}
+.bg-img4{
+    animation: showByRight2 2s forwards;
+}
+
 
 .info-introduction{
     width: 100%;
@@ -80,7 +90,8 @@ bg-anim{
 
     justify-items: center;
     place-items: center;
-    animation: showByRight 3s forwards;
+    animation: showFrame 3s forwards;
+    
 
 }
 
@@ -95,7 +106,7 @@ bg-banner{
 }
 
 /* ANIMATIONS */
-@keyframes showByRight {
+@keyframes showFrame {
     from{
         opacity: 0;
         transform: translateX(-200px);
@@ -105,13 +116,38 @@ bg-banner{
         transform: translateX(0px);
     }
 }
+
+@keyframes showByRight {
+    from{
+        display: block;
+        opacity: 0;
+        transform: translate(-100% , 200px) rotate(-10deg);
+    }
+    to{
+        opacity: 0;
+        transform: translate(-300px , 100px) rotate(-10deg);
+    }
+}
+
+@keyframes showByRight2 {
+    from{
+        
+        opacity: 0;
+        transform: translate(-100% , 200px) rotate(-10deg);
+    }
+    to{
+        opacity: 0;
+        transform: translate(-300px , 300px) rotate(10deg);
+    }
+}
+
 @keyframes showByLeft {
     from{
         opacity: 0;
         transform: translate(100% , 200px) rotate(-10deg);
     }
     to{
-        opacity: 0.6;
+        opacity: 0;
         transform: translate(300px , 100px) rotate(-10deg);
     }
 }
@@ -122,7 +158,12 @@ bg-banner{
         transform: translate(100% , 200px) rotate(0deg);
     }
     to{
-        opacity: 0.6;
+        opacity: 0;
         transform: translate(250px , 300px) rotate(0deg);
     }
+}
+
+.hide-navbar{
+    transform: translateY(-70px);
+    transition: .5s all ease-out;
 }

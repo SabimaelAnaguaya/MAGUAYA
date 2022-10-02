@@ -9,9 +9,42 @@
 /* TO TABLETS */
 
 @media screen and (min-width: 768px) {
-    .info-introduction{
-        
+    .navbar{
+        z-index: 999;
     }
+    .line{
+        display: none;
+    }
+
+    .navlist{
+        width: fit-content;
+        height: 100vh;
+        text-align: center;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+        list-style: none;
+        position: relative;
+        
+        transform: translate(0, 0);
+        transition: unset;
+        z-index: 999;
+
+        background-color: aqua;
+    }
+
+    .bg-navlist{
+        width: 200%;
+        height: 350px;
+        backdrop-filter: blur(0px);
+        -webkit-backdrop-filter: blur(0px);
+        position: absolute;
+    }
+
+    
 
     @keyframes showByLeft {
         from{
@@ -20,7 +53,7 @@
         }
         to{
             opacity: 0.6;
-            transform: translate(300px , 100px) rotate(-10deg);
+            transform: translate(300px , 300px) rotate(-10deg);
         }
     }
     
@@ -31,7 +64,31 @@
         }
         to{
             opacity: 0.6;
-            transform: translate(450px , 300px) rotate(10deg);
+            transform: translate(450px , 600px) rotate(10deg);
+        }
+    }
+
+    @keyframes showByRight {
+        from{
+            display: block;
+            opacity: 0;
+            transform: translate(-100% , 200px) rotate(-10deg);
+        }
+        to{
+            opacity: 0.6;
+            transform: translate(-300px , 300px) rotate(-10deg);
+        }
+    }
+    
+    @keyframes showByRight2 {
+        from{
+            
+            opacity: 0;
+            transform: translate(-100% , 200px) rotate(-10deg);
+        }
+        to{
+            opacity: 0.6;
+            transform: translate(-300px , 600px) rotate(10deg);
         }
     }
 }
@@ -59,6 +116,30 @@
         to{
             opacity: 0.6;
             transform: translate(350px , 300px) rotate(10deg);
+        }
+    }
+
+    @keyframes showByRight {
+        from{
+            display: block;
+            opacity: 0;
+            transform: translate(-100% , 200px) rotate(-10deg);
+        }
+        to{
+            opacity: 0.6;
+            transform: translate(-300px , 100px) rotate(-10deg);
+        }
+    }
+    
+    @keyframes showByRight2 {
+        from{
+            
+            opacity: 0;
+            transform: translate(-100% , 200px) rotate(-10deg);
+        }
+        to{
+            opacity: 0.6;
+            transform: translate(-300px , 300px) rotate(10deg);
         }
     }
 }

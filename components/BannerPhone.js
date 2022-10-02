@@ -20,16 +20,17 @@ class Banner extends HTMLElement {
 
             <div class="grid-info">
 
-                <h1 class="grid-title">${this.title}</h1>
+                <div class="grid-focus">
+                    <h1 class="grid-title">${this.title}</h1>
+                    <p class="grid-paragraph">
+                        <slot>
+                        </slot>
+                    </p>
 
-                <p class="grid-paragraph">
-                    <slot>
-                    </slot>
-                </p>
-
+                </div>
                 <a href="${this.link}" class="btn">
-                  <span>COMENZAR</span>
-                  <div class="dot"></div>
+                    <span>COMENZAR</span>
+                    <div class="dot"></div>
                 </a>
             </div>
         </picture>
@@ -67,6 +68,7 @@ class Banner extends HTMLElement {
 
             place-content: center;
             place-items: center;
+         
 
         }
 
@@ -75,10 +77,16 @@ class Banner extends HTMLElement {
             grid-column: 1/2;
             grid-row: 1/2;
         }
-
+        .grid-focus{
+            width:105%;
+            padding:15px 20px;
+            margin:40px 0;
+        }
         .grid-title{
+            color: white;
             text-align:center;
             margin-bottom:20px;
+            color:white;
         }
 
         .grid-info{
@@ -94,11 +102,11 @@ class Banner extends HTMLElement {
         }
 
         .grid-paragraph{
-            
+            color: white;
             margin-bottom:20px;
-            font-size:1.6rem;
+            font-size:1.8rem;
             text-align:center; 
-    
+            font-weight:500;
         }
 
         .btn {
@@ -111,10 +119,10 @@ class Banner extends HTMLElement {
             border-radius: 5em;
             text-transform: uppercase;
             text-align: center;
-            font-size: 1.3em;
+            font-size: 1.6rem;
             line-height: 2em;
             cursor: pointer;  
-           
+            font-weight: 700;
           }
 
           .dot {
@@ -172,7 +180,20 @@ class Banner extends HTMLElement {
  
              .grid-img{
                  width:120%;
+                 
              }
+
+             .grid-title{
+                font-size:3.5rem;
+                color: white;
+            }
+
+               .grid-paragraph{
+                padding:0 50px;
+                margin-bottom:20px;
+                font-size:2.5rem;
+                text-align:center;
+            }
          
            }
           @media screen and (min-width: 968px) {
@@ -181,11 +202,24 @@ class Banner extends HTMLElement {
             min-width: 600px;
             max-width: 800px;
            }
-
+           .grid-title{
+            font-size:4rem;
+            color:white;
+           }
             .grid-img{
                 width:120%;
             }
-        
+            .grid-focus{
+                width:100%;
+            }
+            .grid-paragraph{
+               
+                padding:0 50px;
+                margin-bottom:20px;
+                font-size:2.5rem;
+                text-align:center; 
+                color:white;
+            }
           }
         </style>
         `
