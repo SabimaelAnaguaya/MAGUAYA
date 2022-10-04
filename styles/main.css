@@ -22,7 +22,7 @@ a{
     color: var(--black);
 }
 .navbar{
-    
+
     width: 100vh;
     height: 70px;
     display: flex;
@@ -190,6 +190,13 @@ bg-banner{
     flex-wrap: wrap;
     gap: 30px;
     justify-content: center;
+}
+
+
+banner-info{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 /* FOOTER SECTION */
