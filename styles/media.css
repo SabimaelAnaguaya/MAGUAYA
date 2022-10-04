@@ -1,6 +1,11 @@
 /* TO PHONES EXTRA SMALL */
 
 @media screen and (max-width: 375px) {
+
+    .navbar{
+        width: 100%;
+        padding: 10px;
+    }
     .info-introduction{
         width: 75%;
     }

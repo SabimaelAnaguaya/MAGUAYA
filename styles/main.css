@@ -26,8 +26,9 @@ a{
     height: 70px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     position: fixed;
+    left: 0;
     background-color: rgba(251, 251, 251, 0.8);
     transition: .5s all ease-in;
     z-index: 999;

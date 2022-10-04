@@ -129,49 +129,15 @@ class Banner extends HTMLElement {
             font-weight: 700;
           }
 
-          .dot {
-            content: '';
-            position: absolute;
-            top: -5px;
-            width: 10px;
-            height: 100%;
-            border-radius: 100%;
-            transition: all 300ms ease;
-            display: none;
-          }
-          .dot:after {
-            content: '';
-            position: absolute;
-            left: calc(50% - .4em);
-            top: -.4em;
-            height: .8em;
-            width: .8em;
-            background: var(--btn-color);
-            border-radius: 1em;
-            border: 2px solid var(--border-color);
-            box-shadow: 0 0 .7em var(--border-color), 0 0 2em var(--btn-color);
-          }
-
-          .btn:hover .dot, .btn:focus .dot {
-            animation: atom 2s infinite linear;
-            display: block;
-          }
-          @keyframes atom {
-            0% {transform: translateX(0) rotate(0);}
-            30%{transform: translateX(130px) rotate(0);}
-            50% {transform: translateX(130px) translateY(10px) rotate(180deg);}
-            80% {transform: translateX(0) translateY(10px)rotate(180deg);}
-            100% {transform: translateX(0) translateY(5px)rotate(360deg);}
-          }
           @media screen and (max-width:375px) {
             .container{
              width:100%;
-             min-width: 250px;
-             max-width: 350px;
+             min-width: 200px;
+             max-width: 2000px;
             }
  
              .grid-img{
-                 width:100%;
+                 width:90%;
              }
 
              .grid-title{
