@@ -81,7 +81,7 @@ class Banner extends HTMLElement {
             grid-row: 1/2;
         }
         .grid-focus{
-            width:105%;
+            width:100%;
             padding:15px 20px;
             margin:40px 0;
         }

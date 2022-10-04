@@ -64,8 +64,8 @@ class MyLogo extends HTMLElement {
         <style>
         :host{
             --color-font: black;
-            font-size: 62.5%;
-            width: 170px
+            width: fit-content;
+           
         }
         *{
             margin: 0;
@@ -73,7 +73,6 @@ class MyLogo extends HTMLElement {
             box-sizing: border-box;
         }
         .logo-container{
-            
             font-family: 'Abril Fatface', cursive;
             height: fit-content;
             display: flex;
@@ -82,15 +81,38 @@ class MyLogo extends HTMLElement {
         }
         
         .logo-container img{
-            width: 50px;
+            width: 40px;
         }
         
         .logo-info{
-            font-size: 1.6rem;
+            font-size: 1.3rem;
             line-height: 2rem;
             color:var(--color-font);
         }
         
+
+        @media screen and (max-width:375px) {
+
+
+        }
+
+        @media screen and (min-width:768px) {
+            .logo-container img{
+                width: 50px;
+            }
+            
+            .logo-info{
+                font-size: 1.6rem;
+                line-height: 2rem;
+                color:var(--color-font);
+            }
+        }
+
+        @media screen and (min-width: 968px) {
+
+        }
+
+
         </style>
         `
     }
