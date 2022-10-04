@@ -87,7 +87,7 @@ class Banner extends HTMLElement {
         .grid-title{
             color: white;
             text-align:center;
-            margin-bottom:20px;
+            margin-bottom:10px;
             color:white;
         }
 
@@ -105,7 +105,7 @@ class Banner extends HTMLElement {
 
         .grid-paragraph{
             color: white;
-            margin-bottom:20px;
+            margin-bottom:10px;
             font-size:1.8rem;
             text-align:center; 
             font-weight:500;
@@ -113,7 +113,7 @@ class Banner extends HTMLElement {
 
         .btn {
             position: relative;
-            margin: 0 auto;
+            margin: 0 ;
             width: 150px;
             color: var(--font-color);
             border: 4px solid var(--border-color);

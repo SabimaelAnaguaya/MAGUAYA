@@ -155,7 +155,7 @@ bg-banner{
 /* ICON CARD  */
 .icons-card{
     width: 100%;
-    min-width: 375px;
+    min-width: 350px;
     max-width: 500px;
     display: flex;
     flex-wrap: wrap;
@@ -164,8 +164,8 @@ bg-banner{
     gap: 30px;
 }
 .icon-card{
-    width: 150px;
-    height: 170px;
+    width: 120px;
+    height: 120px;
 }
 
 .img-cont{

@@ -71,6 +71,38 @@
         margin-bottom: 40px;
     }
 
+
+    /* ICON CARD  */
+.icons-card{
+    width: 100%;
+    min-width: 375px;
+    max-width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    justify-items: center;
+    gap: 30px;
+}
+.icon-card{
+    width: 150px;
+    height: 170px;
+}
+
+.img-cont{
+    width: 100%;
+    
+}
+
+.icon-card img{
+    height:100%;
+   
+}
+
+.icon-card h2{
+    padding-bottom: 20px;
+    text-align: center;
+}
+
     @keyframes showByLeft {
         from{
             opacity: 0;
