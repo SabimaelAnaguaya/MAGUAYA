@@ -7,7 +7,11 @@
     --white:#eef2e2;
     --black:rgb(38, 36, 36);
 }
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 html{
     font-size: 62.5%;
@@ -18,7 +22,7 @@ a{
     color: var(--black);
 }
 .navbar{
-    width: 100%;
+    width: 100vh;
     height: 70px;
     display: flex;
     align-items: center;
