@@ -4,6 +4,20 @@
     .info-introduction{
         width: 75%;
     }
+    .phoneSm{
+        display: block;
+    }
+    .phone{
+        display: none;
+    }
+
+    .tablet{
+        display: none;
+    }
+
+    .laptop{
+        display: none;
+    }
 }
 
 /* TO TABLETS */
@@ -146,7 +160,26 @@
             transform: translate(-300px , 600px) rotate(10deg);
         }
     }
+
+
+    .phoneSm{
+        display: none;
+    }
+    .phone{
+        display: none;
+    }
+    
+    .tablet{
+        display: block;
+    }
+    
+    .laptop{
+        display: none;
+    }
 }
+
+
+
 
 /* TO LAPTOPS */
 @media screen and (min-width: 968px) {
@@ -227,5 +260,21 @@
             opacity: 0.6;
             transform: translate(-300px , 300px) rotate(10deg);
         }
+    }
+
+
+    .phoneSm{
+        display: none;
+    }
+    .phone{
+        display: none;
+    }
+    
+    .tablet{
+        display: none;
+    }
+    
+    .laptop{
+        display: block;
     }
 }
