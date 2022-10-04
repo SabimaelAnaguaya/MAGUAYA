@@ -129,7 +129,7 @@ class Banner extends HTMLElement {
             .container{
              width:100%;
              min-width: 200px;
-             max-width: 2000px;
+             max-width: 280px;
             }
  
              .grid-img{
