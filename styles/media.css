@@ -9,20 +9,7 @@
     .info-introduction{
         width: 75%;
     }
-    .phoneSm{
-        display: block;
-    }
-    .phone{
-        display: none;
-    }
-
-    .tablet{
-        display: none;
-    }
-
-    .laptop{
-        display: none;
-    }
+    
 }
 
 /* TO TABLETS */
@@ -167,20 +154,6 @@
     }
 
 
-    .phoneSm{
-        display: none;
-    }
-    .phone{
-        display: none;
-    }
-    
-    .tablet{
-        display: block;
-    }
-    
-    .laptop{
-        display: none;
-    }
 }
 
 
@@ -267,19 +240,4 @@
         }
     }
 
-
-    .phoneSm{
-        display: none;
-    }
-    .phone{
-        display: none;
-    }
-    
-    .tablet{
-        display: none;
-    }
-    
-    .laptop{
-        display: block;
-    }
 }
