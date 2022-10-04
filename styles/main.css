@@ -22,6 +22,7 @@ a{
     color: var(--black);
 }
 .navbar{
+    
     width: 100vh;
     height: 70px;
     display: flex;
