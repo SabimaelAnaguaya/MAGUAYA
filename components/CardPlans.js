@@ -45,12 +45,12 @@ class CardPlans extends HTMLElement {
         
         .card-plan{
             width: 100%;
-            min-width: 250px;
+            min-width: 200px;
             max-width: 350px;
             border-radius: 30px;
             height: 550px;
             background: var(--secondary);
-            box-shadow: 10px 10px 14px 3px rgb(195, 196, 106, .5);
+           
             overflow: hidden;
             display: flex;
             flex-direction: column;
