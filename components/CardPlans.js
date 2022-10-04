@@ -117,7 +117,8 @@ class CardPlans extends HTMLElement {
 
         @media screen and (max-width:375px) {
             .card-plan{
-                width:95%;
+                width:100%;
+                min-width:100px;
                 max-width: 300px;
                 
             }
