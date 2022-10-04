@@ -1,0 +1,42 @@
+.showL{
+    animation: showL 1s forwards;
+}
+
+.showM{
+    animation: showM 3s forwards;
+}
+
+.showR{
+    animation: showR 1s forwards;
+}
+
+@keyframes showL {
+    from{
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes showM {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+@keyframes showR {
+    from{
+        opacity: 0;
+        transform: translateX(100px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}

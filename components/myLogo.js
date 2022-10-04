@@ -63,7 +63,7 @@ class MyLogo extends HTMLElement {
         return `
         <style>
         :host{
-            --primary: gray;
+            --color-font: black;
             font-size: 62.5%;
             width: 170px
         }
@@ -88,7 +88,7 @@ class MyLogo extends HTMLElement {
         .logo-info{
             font-size: 1.6rem;
             line-height: 2rem;
-            color:var(--primary);
+            color:var(--color-font);
         }
         
         </style>

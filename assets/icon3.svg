@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;stroke:#000000;stroke-miterlimit:10;}
+	.st1{fill:#F2F2F2;stroke:#000000;stroke-miterlimit:10;}
+	.st2{fill:#4A9FD8;stroke:#000000;stroke-miterlimit:10;}
+	.st3{fill:#EA5730;stroke:#000000;stroke-miterlimit:10;}
+	.st4{fill:#F7B339;stroke:#000000;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st5{fill:#FFFFFF;stroke:#000000;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st6{stroke:#020203;stroke-miterlimit:10;}
+	.st7{fill:#676767;stroke:#020203;stroke-miterlimit:10;}
+	.st8{fill:#808181;stroke:#000000;stroke-miterlimit:10;}
+</style>
+<g id="monitor">
+	<path class="st0" d="M27.63,27.47H2.44c-0.6,0-1.08-0.48-1.08-1.08v-14.4c0-0.59,0.48-1.08,1.08-1.08h25.19
+		c0.59,0,1.08,0.48,1.08,1.08v14.4C28.71,26.99,28.22,27.47,27.63,27.47z"/>
+	<path class="st1" d="M26.9,27.47H5.34c-1,0-1.8-0.81-1.8-1.8V12.72c0-1,0.81-1.8,1.8-1.8H26.9c1,0,1.8,0.81,1.8,1.8v12.95
+		C28.71,26.66,27.9,27.47,26.9,27.47z"/>
+	<path class="st2" d="M27.84,24.24H4.4c-0.48,0-0.86-0.39-0.86-0.86V12.63c0-0.95,0.77-1.72,1.72-1.72h22.59
+		c0.48,0,0.86,0.39,0.86,0.86v11.6C28.71,23.85,28.32,24.24,27.84,24.24z"/>
+	<circle class="st3" cx="15.36" cy="14.41" r="2.34"/>
+	<polygon class="st4" points="14.2,19.09 18.87,24.24 9.79,24.24 	"/>
+	<path class="st4" d="M3.53,21.46l4.56-4.42l6.88,7.23H4.4c0,0-0.86-0.03-0.86-0.86S3.53,21.46,3.53,21.46z"/>
+	<polygon class="st5" points="11.61,27.47 10.75,30.97 20.96,30.97 17.02,30.97 17.88,27.47 	"/>
+	<path id="_x3C_screenM_x3E_" class="st6" d="M27.72,24.24H4.52c-0.54,0-0.99-0.44-0.99-0.99V12.2c0-0.54,0.44-0.99,0.99-0.99h23.2
+		c0.54,0,0.99,0.44,0.99,0.99v11.05C28.71,23.79,28.26,24.24,27.72,24.24z">
+
+		<animate attributeName="opacity"
+             values="0;1;0" dur="4s"
+             repeatCount="indefinite"/>
+	</path>
+</g>
+<g id="celular">
+	<path class="st7" d="M29.34,21.18h-8c-0.75,0-1.36-0.61-1.36-1.36V7.59c0-0.75,0.61-1.36,1.36-1.36h8c0.75,0,1.36,0.61,1.36,1.36
+		v12.23C30.7,20.57,30.09,21.18,29.34,21.18z"/>
+	<path class="st8" d="M28.92,21.18h-5.52c-0.98,0-1.78-0.8-1.78-1.78V8.02c0-0.98,0.8-1.78,1.78-1.78h5.52
+		c0.98,0,1.78,0.8,1.78,1.78V19.4C30.7,20.38,29.9,21.18,28.92,21.18z"/>
+	<rect x="21.61" y="8.94" class="st2" width="9.09" height="9.28"/>
+	<polygon class="st4" points="29.7,18.23 26.93,15.18 24.22,18.23 	"/>
+	<polygon class="st4" points="21.61,15.95 23.57,13.97 27.39,18.17 21.61,18.23 	"/>
+	<circle class="st3" cx="27.65" cy="12.59" r="1.38"/>
+	<rect id="_x3C_screenP_x3E_" x="21.61" y="8.94" class="st6" width="9.09" height="9.28">
+
+		<animate attributeName="opacity"
+             values="1;0;1" dur="4s"
+             repeatCount="indefinite"/>
+	</rect>
+</g>
+</svg>

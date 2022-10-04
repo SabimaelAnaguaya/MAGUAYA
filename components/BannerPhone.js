@@ -7,7 +7,7 @@ class Banner extends HTMLElement {
         */
 
             this.title = this.getAttribute('title');
-            this.link = this.getAttribute('link');
+            
 
     }
     getTemplate(){
@@ -28,8 +28,10 @@ class Banner extends HTMLElement {
                     </p>
 
                 </div>
-                <a href="${this.link}" class="btn">
-                    <span>COMENZAR</span>
+                <a href="https://api.whatsapp.com/send?phone=59160636949&text=Hola!, me gustaria saber más" target="_Blank" class="btn">
+               
+
+                <span>COMENZAR</span>
                     <div class="dot"></div>
                 </a>
             </div>

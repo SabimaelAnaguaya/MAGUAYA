@@ -2,7 +2,7 @@
 :root{
     --primary: #247291;
     --secondary: #f8da5b;
-    --light: #c3c46a;
+    --light: rgb(195, 196, 106);
     --color:#c3c46a;
     --white:#eef2e2;
     --black:rgb(38, 36, 36);
@@ -64,7 +64,6 @@ bg-anim{
 }
 
 .bg-img1{
-    
     animation: showByLeft 2s forwards;
 }
 
@@ -105,6 +104,152 @@ bg-banner{
     --font-color: (var(--primary))
 }
 
+/* SECTION DETAILS */
+.details-container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.details{
+    width: 100%;
+    min-width: 375px;
+    max-width: 500px;
+    padding: 0 30px;
+    margin: 40px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.detail-subtitle{
+    color:var(--primary);
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.detail-title{
+    color: var(--black);
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.detail-text{
+    font-size: 1.6rem;
+    margin-bottom: 40px;
+}
+/* MAIN SECTION */
+
+.main{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+
+/* ICON CARD  */
+.icons-card{
+    width: 100%;
+    min-width: 375px;
+    max-width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    justify-items: center;
+    gap: 30px;
+}
+.icon-card{
+    width: 150px;
+    height: 170px;
+}
+
+.img-cont{
+    width: 100%;
+    
+}
+
+.icon-card img{
+    height:100%;
+   
+}
+
+.icon-card h2{
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.plans{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+/* FOOTER SECTION */
+
+.footer{
+    width: 100%;
+    position: relative;
+    background: var(--primary);
+    padding-bottom: 30px;
+}
+
+.footer-info{
+    padding: 20px;
+}
+.resume{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.foot-nav{
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 1.3rem;
+    color: white;
+    
+}
+
+.foot-nav a{
+    color: white;
+    cursor: pointer;
+}
+
+.footer-logo{
+    margin-bottom: 30px;
+}
+.footer-copyright{
+    width: 100%;
+    background-color: #c3c46a;
+    position: absolute;
+    bottom: 0;
+    padding: 5px 0;
+}
+
+.footer-copyright h2{
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+
+}
+
+.footer-logo{
+    --color-font:white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+
 /* ANIMATIONS */
 @keyframes showFrame {
     from{
@@ -116,6 +261,8 @@ bg-banner{
         transform: translateX(0px);
     }
 }
+
+
 
 @keyframes showByRight {
     from{

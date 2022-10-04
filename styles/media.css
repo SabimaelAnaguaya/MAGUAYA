@@ -10,7 +10,10 @@
 
 @media screen and (min-width: 768px) {
     .navbar{
-        z-index: 999;
+       
+    }
+    .lines{
+        display: none;
     }
     .line{
         display: none;
@@ -18,7 +21,7 @@
 
     .navlist{
         width: fit-content;
-        height: 100vh;
+        height: fit-content;
         text-align: center;
 
         display: flex;
@@ -28,23 +31,45 @@
         gap: 10px;
         list-style: none;
         position: relative;
-        
+        bottom: 0;
         transform: translate(0, 0);
         transition: unset;
         z-index: 999;
-
-        background-color: aqua;
+        opacity: 1;
+        
     }
 
     .bg-navlist{
-        width: 200%;
-        height: 350px;
-        backdrop-filter: blur(0px);
-        -webkit-backdrop-filter: blur(0px);
-        position: absolute;
+        display: none;
     }
 
+    .details{
+        width: 100%;
+        min-width: 375px;
+        max-width: 600px;
+        padding: 0 30px;
+        margin: 40px 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
     
+    .detail-subtitle{
+        color:var(--primary);
+        font-size: 3rem;
+        margin-bottom: 10px;
+    }
+    
+    .detail-title{
+        color: var(--black);
+        font-size: 3.5rem;
+        margin-bottom: 20px;
+    }
+    
+    .detail-text{
+        font-size: 2rem;
+        margin-bottom: 40px;
+    }
 
     @keyframes showByLeft {
         from{
@@ -96,6 +121,37 @@
 /* TO LAPTOPS */
 @media screen and (min-width: 968px) {
     
+
+    .details{
+        width: 100%;
+        min-width: 375px;
+        max-width: 500px;
+        padding: 0 30px;
+        margin: 40px 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .detail-subtitle{
+        color:var(--primary);
+        font-size: 3rem;
+        margin-bottom: 10px;
+    }
+    
+    .detail-title{
+        color: var(--black);
+        font-size: 3.5rem;
+        margin-bottom: 20px;
+    }
+    
+    .detail-text{
+        font-size: 2rem;
+        margin-bottom: 40px;
+    }
+
+
+
 
     @keyframes showByLeft {
         from{

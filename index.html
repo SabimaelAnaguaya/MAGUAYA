@@ -7,10 +7,11 @@
     <link rel="stylesheet" href="./styles/main.css">
     <link rel="stylesheet" href="./styles/navlist.css">
     <link rel="stylesheet" href="./styles/media.css">
+    <link rel="stylesheet" href="./styles/animation.css">
     <title>Document</title>
 </head>
 <body>
-    <header>
+    <header id="header">
         <nav class="navbar">
             <a href="./index.html">
                 <my-logo></my-logo>
@@ -23,14 +24,12 @@
             </div>
 
             <ul class="navlist">
-                <div class="bg-navlist bg-top"></div>
-                <div class="bg-navlist bg-middle"></div>
-                <div class="bg-navlist bg-bottom"></div>
+                
                 <li>
-                    <a href="">INICIO</a>
+                    <a href="#inicio">INICIO</a>
                 </li>
                 <li>
-                    <a href="">SERVICIO</a>
+                    <a href="#service">SERVICIOS</a>
                 </li>
                 <li>
                     <a href="">CONTACTAME</a>
@@ -39,7 +38,7 @@
         </nav>
     </header>
     
-    <main >
+    <main class="main">
         <section class="introduction">
 
             <div class="intro-container">
@@ -51,22 +50,121 @@
                 <section class="info-introduction">
                     <bg-banner title="TU PÁGINA WEB A MEDIDA">
                         Creamos tu Página Web 100% personalizado, para todo los dispositivos, si tienes dudas te brindamos asesoria totalmente gratuita
-                    </bg-banner>    
+                    </bg-banner>  
                 </section>
                
             </div>
         </section>
-        <section>
-            How
+
+        <div id="inicio" class="details-container">
+
+            <section class="details">
+                <div class="detail-content">
+                    <h2 class="detail-subtitle">Creación de páginas web</h2>
+                    <h1 class="detail-title">Comienza tu sitio web perfecto y a medida.</h1>
+                    <p class="detail-text"> Construimos páginas web profesionales, que asegurarán una experiencia digital unica, accesible para todo los dispositivos, diseñado totalmente responsivo y a un costo accesible.
+    
+                    </p>
+                    <btn-begin></btn-begin>
+                </div>
+               
+            </section>
+    
+            <section class="icons-card">
+    
+                <div class="icon-card">
+                    <picture class="img-cont" id="icon-1">
+                        <img src="./assets/icon2.svg" alt="icono diseño creativo">
+                    </picture>
+                    <h2>Diseño Web Creativo</h2>
+                </div>
+    
+                <div class="icon-card">
+                    <picture class="img-cont" id="icon-2">
+                        <img src="./assets/icon1.svg" alt="icono diseño personalizado">
+                    </picture>
+                    <h2>Diseño Web Personalizado</h2>
+                </div>
+    
+                <div class="icon-card">
+                    <picture class="img-cont" id="icon-3">
+                        <img src="./assets/icon3.svg" alt="icono diseño responsivo">
+                    </picture>
+                    <h2>Diseño Web Responsivo </h2>
+                </div>
+    
+            </section>
+        </div>
+        
+        <banner-info>
+            Analizamos y estudiamos tu proyecto, o negocio y desarrollamos  una estrategia para la maquetacion de tu página web.
+        </banner-info>
+        
+        <section id="service" class="plans">
+            <card-plan 
+                id="plan-1"
+                title="PLAN WORDPRESS" 
+                subtitle="Construido con la tecnologia Wordpress, Elementor" 
+                price="100" >
+            </card-plan>
+
+            <card-plan 
+                id="plan-2"
+                title="PERSONALIZADO" 
+                subtitle="Construido con las tecnologias bases HTML5, CSS3 y JavaScript"
+                price="150">
+            </card-plan>
+
+            <card-plan 
+                id="plan-3"
+                title="MANTENIMIENTO" 
+                subtitle="Se realiza actualizacion y mantenimiento de tu pagina web" 
+                price="100">
+            </card-plan>
         </section>
     </main>
     
+    <footer class="footer">
+        <section class="footer-info">
+            <div class="resume">
+                <my-logo class="footer-logo"></my-logo>
+                <div class="foot-nav">
+                    <h3>CONTACTOS</h3>
+                    <p>Agencia de Desarrollo Web</p>
+                    <a>(+591) 60636949</a>
+                    <a>hola@maguaya.com</a>
+                    <p>lun - vie 9:00 17:00  </p>
+                </div>
+                <div class="foot-nav">
+                    <h3>SITIO</h3>
+                    <a href="">INICIO</a>
+                    <a href="">SERVICIO</a>
+                    <a href="">CONTACTAME</a>
+                </div>
+
+                <div class="foot-nav">
+                    <h3>SERVICIOS</h3>
+                    <a href="">Web Wordpress</a>
+                    <a href="">Web Personalizado</a>
+                    <a href="">Mantenimiento</a>
+                </div>
+
+            </div>
+        </section>
+        <section class="footer-copyright">
+            <h2>© 2022 MAGUAYA Web Design - Agencia de Desarrollo Web La Paz - Bolivia</h2>
+        </section>
+    </footer>
     
     
 
     <script type="module" src="./components/myLogo.js"></script>
     <script type="module" src="./components/background.js"></script>
     <script type="module" src="./components/BannerPhone.js"></script>
+    <script type="module" src="./components/btnComenzar.js"></script>
+    <script type="module" src="./components/CardPlans.js"></script>
+    <script type="module" src="./components/banner.js"></script>
+
     <script src="./components/main.js"></script>
 </body>
 </html>
