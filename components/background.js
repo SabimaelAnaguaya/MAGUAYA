@@ -42,6 +42,7 @@ class BgAnimated extends HTMLElement {
         :host{
             --bg-left: rgba(84,58,183,1);
             --bg-right: rgba(0,172,193,1);
+            width:100%;
         }
         *{
           margin:0;
@@ -52,7 +53,6 @@ class BgAnimated extends HTMLElement {
         .header {
             width: 100%;
             height: 100vh;
-        
             position:relative;
             background: linear-gradient(60deg, var(--bg-left) 0%, var(--bg-right) 100%);
           }
@@ -63,7 +63,6 @@ class BgAnimated extends HTMLElement {
             width: 100%;
             height: 100px;
             bottom: 0;
-        
           }
           
           .parallax > use {

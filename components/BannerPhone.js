@@ -29,10 +29,7 @@ class Banner extends HTMLElement {
 
                 </div>
                 <a href="https://api.whatsapp.com/send?phone=59160636949&text=Hola!, me gustaria saber más" target="_Blank" class="btn">
-               
-
-                <span>COMENZAR</span>
-                    <div class="dot"></div>
+                    COMENZAR
                 </a>
             </div>
         </picture>
@@ -83,7 +80,7 @@ class Banner extends HTMLElement {
         .grid-focus{
             width:100%;
             padding:15px 20px;
-            margin:40px 0;
+            
         }
         .grid-title{
             color: white;
@@ -107,7 +104,7 @@ class Banner extends HTMLElement {
 
         .grid-paragraph{
             color: white;
-            margin-bottom:10px;
+          
             font-size:1.6rem;
             text-align:center; 
             font-weight:500;
@@ -124,7 +121,6 @@ class Banner extends HTMLElement {
             text-transform: uppercase;
             text-align: center;
             font-size: 1.6rem;
-            line-height: 2em;
             cursor: pointer;  
             font-weight: 700;
           }
@@ -137,7 +133,7 @@ class Banner extends HTMLElement {
             }
  
              .grid-img{
-                 width:90%;
+                 width:95%;
              }
 
              .grid-title{
