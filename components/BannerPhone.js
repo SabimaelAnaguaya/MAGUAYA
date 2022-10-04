@@ -90,6 +90,7 @@ class Banner extends HTMLElement {
             text-align:center;
             margin-bottom:10px;
             color:white;
+            font-size:2rem;
         }
 
         .grid-info{
@@ -107,7 +108,7 @@ class Banner extends HTMLElement {
         .grid-paragraph{
             color: white;
             margin-bottom:10px;
-            font-size:1.8rem;
+            font-size:1.6rem;
             text-align:center; 
             font-weight:500;
         }
@@ -171,6 +172,14 @@ class Banner extends HTMLElement {
  
              .grid-img{
                  width:100%;
+             }
+
+             .grid-title{
+                font-size:1.6rem;
+             }
+
+             .grid-paragraph{
+                font-size:1.3rem;
              }
          
            }
