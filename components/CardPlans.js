@@ -46,7 +46,7 @@ class CardPlans extends HTMLElement {
         .card-plan{
             width: 100%;
             min-width: 250px;
-            max-width: 350px;
+            max-width: 340px;
             border-radius: 30px;
             height: 550px;
             background: var(--secondary);
@@ -113,6 +113,44 @@ class CardPlans extends HTMLElement {
             background: #247291;
             color: #f8da5b;
             box-shadow: 0 0 15px 4px rgb(238, 242, 226);
+        }
+
+        @media screen and (max-width:375px) {
+            .card-plan{
+                max-width: 300px;
+                
+            }
+
+            .header-plan h1{
+                font-size: 2rem;
+            }
+            
+            .header-plan p{
+                
+                font-size: 1.3rem;
+            }
+            
+            .price{
+                font-size: 7rem;
+              
+            }
+            
+           
+            
+            .list-plan li{
+                font-size: 1.3rem;
+           
+                line-height: 3rem;
+            }
+            
+            
+            
+            .btn-plan{
+               
+                font-size: 1.4rem;
+               
+            }
+
         }
         </style>
         `
