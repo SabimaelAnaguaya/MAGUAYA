@@ -10,7 +10,7 @@ class BtnBegin extends HTMLElement {
         const template = document.createElement('template');
         template.innerHTML=`
         <span class="btn-container">
-            <a class="button" href="" >
+            <a class="button" href="https://api.whatsapp.com/send?phone=59160636949&text=Hola!, me gustaria saber más" target="_Blank" >
                 COMENZAR
             </a>
 
