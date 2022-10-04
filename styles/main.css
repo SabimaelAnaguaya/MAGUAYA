@@ -101,7 +101,7 @@ bg-banner{
 
     --btn-color: var(--secondary);    
     --border-color: var(--primary);
-    --font-color: (var(--primary))
+    --font-color: var(--primary);
 }
 
 /* SECTION DETAILS */
@@ -184,7 +184,7 @@ bg-banner{
 }
 
 .plans{
-    width: 80%;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     gap: 30px;

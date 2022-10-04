@@ -43,6 +43,11 @@ class BgAnimated extends HTMLElement {
             --bg-left: rgba(84,58,183,1);
             --bg-right: rgba(0,172,193,1);
         }
+        *{
+          margin:0;
+          padding:0;
+          box-sizing:border-box;
+        }
 
         .header {
             width: 100%;

@@ -22,7 +22,11 @@ class BtnBegin extends HTMLElement {
     getStyles(){
         return `
         <style>
-           
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+          }
             a{
                 width:120px;
                 text-decoration:none;

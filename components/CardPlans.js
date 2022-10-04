@@ -45,7 +45,7 @@ class CardPlans extends HTMLElement {
         
         .card-plan{
             width: 100%;
-            min-width: 200px;
+            min-width: 250px;
             max-width: 350px;
             border-radius: 30px;
             height: 550px;
