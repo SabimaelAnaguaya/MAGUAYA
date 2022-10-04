@@ -196,7 +196,7 @@ bg-banner{
 .footer{
     width: 100%;
     position: relative;
-    background: var(--primary);
+    background: var(--black);
     padding-bottom: 30px;
 }
 
