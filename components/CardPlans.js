@@ -117,17 +117,18 @@ class CardPlans extends HTMLElement {
 
         @media screen and (max-width:375px) {
             .card-plan{
+                width:95%;
                 max-width: 300px;
                 
             }
 
             .header-plan h1{
-                font-size: 2rem;
+                font-size: 2.5rem;
             }
             
             .header-plan p{
                 
-                font-size: 1.3rem;
+                font-size: 1.5rem;
             }
             
             .price{
@@ -138,7 +139,7 @@ class CardPlans extends HTMLElement {
            
             
             .list-plan li{
-                font-size: 1.3rem;
+                font-size: 1.5rem;
            
                 line-height: 3rem;
             }
@@ -147,7 +148,7 @@ class CardPlans extends HTMLElement {
             
             .btn-plan{
                
-                font-size: 1.4rem;
+                font-size: 1.5rem;
                
             }
 
