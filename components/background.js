@@ -55,12 +55,13 @@ class BgAnimated extends HTMLElement {
             height: 100vh;
             position:relative;
             background: linear-gradient(60deg, var(--bg-left) 0%, var(--bg-right) 100%);
+            overflow:hidden;
           }
         
         
           .waves {
             position:absolute;
-            width: 100%;
+            width: 120%;
             height: 100px;
             bottom: 0;
           }
