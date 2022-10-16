@@ -17,15 +17,11 @@ class CardPlans extends HTMLElement {
                 <h1>${this.title}</h1>
                 <p>${this.subtitle}</p>
             </div>
+
             <h2 class="price">${this.price}$</h2>
-            <ul class="list-plan">
-                <li>Hosting y dominio incluidos</li>
-                <li>Diseño totalmente responsivo</li>
-                <li>Mantenimiento por un año</li>
-                <li>Hasta 4 paginas</li>
-                <li>Posicionamiento SEO</li>
-                <li>Tiempo de Entrega de 10 a 14 dias</li>
-            </ul>
+
+            <slot name="list" class="list-plan"></slot>
+
             <span class="btn-plan-container">
                 <a class="btn-plan" href="https://api.whatsapp.com/send?phone=59160636949&text=Hola!, me gustaria saber más" target="_Blank"">CONSULTAR</a>
             </span>
@@ -56,6 +52,8 @@ class CardPlans extends HTMLElement {
             flex-direction: column;
             align-items: center;
             gap: 10px;   
+
+            position:relative;
         }
         .header-plan{
             width: 100%;
@@ -86,16 +84,17 @@ class CardPlans extends HTMLElement {
         }
         
         .list-plan{
+            
             padding: 0 40px;
-        }
-        
-        .list-plan li{
             font-size: 1.6rem;
             font-weight: 500;
             line-height: 3.5rem;
         }
-        
-        
+            
+        .btn-plan-container{
+            position:absolute;
+            bottom: 30px;
+        }
         
         .btn-plan{
             margin-top: 20px ;
@@ -139,9 +138,8 @@ class CardPlans extends HTMLElement {
             
            
             
-            .list-plan li{
+            .list-plan{
                 font-size: 1.5rem;
-           
                 line-height: 3rem;
             }
             
