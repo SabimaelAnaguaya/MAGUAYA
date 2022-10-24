@@ -14,9 +14,9 @@ class Banner extends HTMLElement {
         const template = document.createElement('template');
         template.innerHTML=`
         <picture class="container">
-            <source srcset="../assets/laptop.svg" media="(min-width:968px)">
-            <source srcset="../assets/ipad.svg" media="(min-width:768px)">
-            <img class="grid-img" src="../assets/phone.svg">
+            <source srcset="./assets/laptop.svg" media="(min-width:968px)">
+            <source srcset="./assets/ipad.svg" media="(min-width:768px)">
+            <img class="grid-img" src="./assets/phone.svg" alt="phone">
 
             <div class="grid-info">
 
